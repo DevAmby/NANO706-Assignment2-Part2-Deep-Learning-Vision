@@ -1,7 +1,4 @@
-# NANO 706 · Assignment 2, Part 2: MNIST Classification and YOLO Face Detection
-
-**Student:** Bukola Akindipe  
-**Notebook:** [`Nano706_Homework2_Part2_Bukola.ipynb`](Nano706_Homework2_Part2_Bukola.ipynb)
+# Assignment 2, Part 2: MNIST Classification and YOLO Face Detection
 
 ## Task
 
@@ -50,11 +47,3 @@ results.show()
 **Detected: person, confidence 0.87**
 
 YOLO found me with 87% confidence. The label is "person" instead of "face" because the pre-trained YOLOv5 model (trained on the COCO dataset) has no face class, so it detects the whole person. Getting a box around only the face would require training the model on a face dataset.
-
-## Conclusion
-
-On MNIST, the MLP neural network performed best (97.19%), the Random Forest was close behind (96.75%), and Logistic Regression was the weakest (91.90%), since a linear model can't capture how much handwriting varies. For face detection, the pre-trained YOLOv5 model detected me reliably without any extra training, but it can only use the classes it was trained on, so it labeled me as a person rather than a face.
-
-## How to Run
-
-Open the notebook in Google Colab, upload your own photo to `/content/`, and run all cells.
