@@ -32,7 +32,7 @@ mlp.fit(X_train, y_train)
 
 ![MLP predictions](figures/mnist_mlp_sample_predictions.png)
 
-The MLP had the highest accuracy, followed closely by the Random Forest. Logistic Regression was about 5% lower because it is a linear model: it learns one weight per pixel, which can't capture the different ways people write the same digit. The MLP's hidden layer learns combinations of pixels (strokes and shapes), so it handles that variation better. All 5 sample test digits were predicted correctly by the MLP.
+The MLP had the highest accuracy, followed closely by the Random Forest. Logistic Regression was about 5% lower because it is a linear model. It learns one weight per pixel, which can't capture the different ways people write the same digit. The MLP's hidden layer learns combinations of pixels (strokes and shapes), so it handles that variation better. All 5 sample test digits were predicted correctly by the MLP.
 
 ## Part 2: Face Detection with YOLO
 
