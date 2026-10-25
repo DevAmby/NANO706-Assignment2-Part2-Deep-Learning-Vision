@@ -1,6 +1,6 @@
 # NANO 706 · Assignment 2, Part 2: MNIST Classification and YOLO Face Detection
 
-**Student:** Bukola Akindipe
+**Student:** Bukola Akindipe  
 **Notebook:** [`Nano706_Homework2_Part2_Bukola.ipynb`](Nano706_Homework2_Part2_Bukola.ipynb)
 
 ## Task
